@@ -1,13 +1,14 @@
+
 const api = "api_key=9c01bc51e3095c9d889d05989bec36d1";
-// base url of the site 
+// base url of the site  danish
 const base_url = "https://api.themoviedb.org/3";
 // url
 const final_url = base_url + "/discover/movie?sort_by=popularity.desc&" + api;
 // img url 
 const img_url = "https://image.tmdb.org/t/p/original";
 
-// requests for movies data 
-const requests = {
+// requests for movies data  danisst
+ const requests = {
   fetchPopular: `${base_url}/discover/movie?certification_country=US&certification.lte=G&sort_by=popularity.desc&${api}`,
   fetchTrending: `${base_url}/trending/all/week?${api}&language=en-US`,
   fetchNetflixOrignals: `${base_url}/discover/tv?${api}&with_networks=213`,
